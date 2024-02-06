@@ -5,9 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="calculator.js" ></script>
+    <script src="calculator.js" defer></script>
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="screen">
+            <div class="previous"></div>
+            <div class="current"></div>
+        </div>
+        <div class="btns">
+            <div class="btn-row" id="row1">
+                <button class="clear">AC</button>
+                <button class="backspace">&larr;</button>
+            </div>
+            <div class="btn-row">
+                <button class="numeric-btn">7</button>
+                <button class="numeric-btn">8</button>
+                <button class="numeric-btn">9</button>
+                <button class="op-btn">/</button>
+            </div>
+            <div class="btn-row">
+                <button class="numeric-btn">4</button>
+                <button class="numeric-btn">5</button>
+                <button class="numeric-btn">6</button>
+                <button class="op-btn">&ast;</button>
+            </div>
+            <div class="btn-row">
+                <button class="numeric-btn">1</button>
+                <button class="numeric-btn">2</button>
+                <button class="numeric-btn">3</button>        
+                <button class="op-btn">-</button>      
+            </div>
+            <div class="btn-row" id="row5">
+                <button class="numeric-btn">0</button>
+                <button class="eval-btn">&equals;</button>
+                <button class="op-btn">&plus;</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
